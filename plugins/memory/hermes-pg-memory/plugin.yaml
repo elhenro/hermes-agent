@@ -1,0 +1,7 @@
+name: hermes-pg-memory
+version: 0.1.0
+description: "Postgres-backed memory provider with pgvector semantic search, session tracking, research storage, entities, and analytics. Requires a local Postgres instance with pgvector."
+hooks:
+  - on_session_end
+  - on_memory_write
+  - on_delegation
